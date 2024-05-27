@@ -1,0 +1,66 @@
+Project Governance
+  - Authority
+  - Process
+  - Evidence
+
+If no process is in place, the solution architect should push for the creation of a governance process or create one themselves.
+
+Governance Process
+  - Risks
+  - Issues
+  - Changes
+
+- The solution architect must acknowledge and share bad news early in the process.
+
+Key Success Project
+- Knowing what a finished project looks like from the customer’s perspective, not yours
+- Having change control board to manage Changes
+- Managing Risk actively
+- Performing Project Checkpoints to assess how you are doing
+- Having retrospective and evaluating lessons learned to assess how you did
+
+Establishing Standards
+- Naming of Components
+- Column data type
+- UI layout
+- Automation
+- Security
+- Development
+
+Settings
+Power Platform is a SaaS service from Microsoft Entra ID Tenant
+Power Platform is licensed through M365
+Power Platform runs on Azure
+M365 uses Microsoft Entra ID tenant to control authent / authoriz
+
+
+Location
+The location of the tenant (billing) can be different from the location of an environment and its data.
+
+When to use multiple environemnts
+- Handling ALM (Dev, Test, Prod )
+- isolate resources that are not used by the same users
+
+Connecting to On-Prem
+- VPN
+- Azure ExpressRoute (private connectivity)
+
+API
+Power Platform uses Rest API to communicate between Apps / Data
+Connectors and Dataverse use REST API and OData for requests and data.
+
+Custom Connector
+- Importing OpenAI definition to describe existing API
+- Creating Microsoft Azure Function and then Azure API Management
+- Creating Custom API to define your own actions
+
+Custom Logic Limitation
+You can't trigger Power Automate flows from calculated or rollup columns.
+Rollup columns are only recalculated every hour.
+Business rules can only access the columns on the form for its own table.
+Classic workflows can't access rows in 1-to-many relationships.
+Data that is changed by a business rule will not trigger an OnChange event that was created with JavaScript.
+
+Async vs Sync Custom Logic
+Sync -> User's screen is blocked until all operation are completed.
+operation sync transaction are limited to a total of 2 minutes
