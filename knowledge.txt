@@ -1,0 +1,56 @@
+Sync Issues
+- Trace logging assists in the diagnosis of the root cause of a plug-in failure.
+- Configuration Migration tool can be used to automate the migration of references and other table data between Dataverse environments.
+- Industry accelerators are production-ready sets of table definitions that are available from Microsoft at no cost.
+
+Business Process Flow
+A business process flow is a native Dataverse capability for orchestrating data entry
+
+Azure Services
+Relay - can provide an immediate response after a request is processed.
+Service Bus and Service Bus topic cannot respond to a request immediately because their process is asynchronous.
+  Service Bus provides a message queuing service that is triggered by an event.
+  Azure Service Bus allows only asynchronous steps
+Event Hubs is a data streaming platform and ingestion service.
+  Event Hubs is a scalable event streaming platform that can handle high volumes of streaming data.
+Logic Apps allows you to design, build, and automate workflows and business processes. 90 days retention policies.
+Azure Functions is an event-driven serverless compute service used to handle a specific task or business logic.
+
+Roles
+The Microsoft Power Platform admin role
+ gives users the ability to manage all Microsoft Power Platform environments on the tenant, including the ability to create and back up environments.
+The Global admin role
+  in Microsoft 365 provides the most excessive privileges across the tenant,
+
+Data Lost Prevention (DLP)
+DLP policies help prevent users from intentionally or unintentionally exposing data.
+
+Dynamics 365 - App
+Customer Service: where tickets and cases are handled (case management)
+Dynamics 365 Field Service is for handlings field workers (inspection management).
+Dynamics 365 Sales is a classic customer relationship management (CRM) system (sales management)
+Dynamics 365 Customer Insights - Journeys is the marketing solution of Dynamics 365 (campaing management)
+
+Upsert Data
+Upsert updates the record if it exists or creates a new record if it does not exist, in one API call.
+
+This item tests the candidate’s knowledge of how to configure a component manifest, which is part of creating a Power Apps component framework (PCF) component.
+
+Power Apps Component Framework
+A manifest is an XML file that describes the metadata of the component.
+ A resource file is an XML file that contains the strings that can be translated into different languages.
+ In Node.js, package.json is a versioning file that you can use to install multiple packages in a project.
+ You use an Index.ts file to import multiple modules from other folders and re-export the modules.
+
+
+ Environment Makers
+ can distribute the apps that they build in an environment to other users within an organization by sharing the app with individual users, security groups, or to all users in the organization.
+ can create resources within an environment such as apps, connections, custom connectors, gateways, apps that use Power Apps, and flows that use Power Automate.
+
+ System Admin
+ can provision a Microsoft Dataverse Database for the environment.
+ System administrator can add or remove a user or group from either the Environment Admin or Environment Maker role.
+
+
+System Customizer
+ can customize the environment

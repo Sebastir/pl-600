@@ -64,3 +64,44 @@ Data that is changed by a business rule will not trigger an OnChange event that 
 Async vs Sync Custom Logic
 Sync -> User's screen is blocked until all operation are completed.
 operation sync transaction are limited to a total of 2 minutes
+
+Azure Bot Framework
+Microsoft Azure Bot Service is part of Azure Bot Framework, a SDK uses to create Chatbot from code
+A developer can connect an Azure Bot Service bot with the Language Understanding (LUIS) service within Azure Cognitive Services
+A developer can also enable their bot to use a knowledge base that was created in QnA Maker.
+
+Bots that are created with Azure Bot Framework can be integrated with Microsoft Copilot Studio bots.
+
+
+Azure Bot Framework Composer
+UI to create bots
+
+Microsoft CoPilot Studio
+A good Microsoft Copilot Studio copilot will have a high business impact,
+ 1. That is, a high level of traffic,
+ 2. A low level of integration complexity,
+ 3. A high level of conversation completion that is achieved without the need for escalation to a human agent.
+A well-designed copilot will have a clearly defined set of goals, where each topic is linked to a business process and has trigger events, a clear set of rules, a set of documents, and a series of tasks that will be performed.
+The solution architect might need to provide guidelines for creating topics and trigger phrases for copilot authors to follow.
+
+Microsoft Copilot Studio requires a tenant license and a user license for anyone who will be building copilots.
+
+Define the scope of the copilot.
+Define the purpose of the copilot.
+Define which channels that the copilot will be deployed to.
+Define the key metrics and success criteria.
+Verify the topics, entities, and conversational flows.
+
+Microsoft Copilot Studio can pass parameters to a Power Automate cloud flow
+and receive data back from the flow and use that data in the copilot's conversation flow.
+
+
+Cognitive Services
+Sentiment analysis
+Image clasification
+Form recognition
+
+- You can use Azure Cognitive Services with Microsoft Copilot Studio by using Power Automate cloud flows and the associated Cognitive Services connector.
+
+dataverse
+https://learn.microsoft.com/en-us/training/modules/data-modeling/5-dataverse

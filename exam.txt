@@ -1,0 +1,114 @@
+The implementation must meet the following requirements:
+
+The name of a table row must remain the same when a row is changed or created.
+Rows must be named according to specified rules.
+The calculated name must appear immediately after a user saves a row.
+
+R: sync - server side
+
+
+You are working on a Microsoft Power Platform project that involves several integrations built by developers and several environments.
+Each environment has separate endpoints for each integration.
+
+team records creation
+upsert of reference data
+
+You need to select a Microsoft Power Platform capability that will optimize the ease and speed of implementing the solution.
+R: Industry accelerator
+
+Initial Discovery provide info about
+- Problem Statement
+- Scope of Work
+
+You need to collect information from user stories to complete the fit/gap analysis.
+
+Level of effort
+priority
+
+Common Data Model Tables
+Account
+Task
+Marketing List
+
+The company will send the Dataverse records that are posted in the loan application to a third-party service. The Dataverse records will be sent as messages.
+The third-party service has limited ability to process a high volume of messages at once.
+
+R: Service Bus provides a message queuing service that is triggered by an event.
+
+The partner’s users must be able to connect from their tenant to the company’s tenant.
+Cross-tenant access – restriction outbound
+
+One user in the United Kingdom notes that even during off-peak times, the app runs very slowly.
+R: Bandwidth - Latency
+
+You need to select a tool that is recommended by Microsoft to deploy solutions to downstream environments.
+ALM accelerator
+Azure Pipelines  in Azure DevOps
+Microsoft Power Platform Pipelines
+
+You need to ensure users get an immediate response from the system after a request is processed.
+Relay
+
+You need to identify which Dynamics 365 app can be installed in Dataverse.
+Sales, Field Service , Customer Service
+
+An organization uses Microsoft Dataverse. The organization creates Azure Durable Functions.
+Webhook
+
+You need to build business logic for the custom API and configure the custom API to run the business logic.
+1. Write a plug-in for the custom API.
+2. Update the custom API plug-in type in Power Apps.
+3. Register the assembly using the Plug-in Registration tool (PRT).
+
+You need to configure authentication for a custom connector.
+client ID
+client secret
+
+You require JavaScript to make requests to the web API.
+FetchXML
+OData v4.0
+
+You need to configure the trigger so the flow only runs when a row is deactivated.
+Row filter
+Column filter
+
+A Power Automate cloud flow should run as a step in the business process flow stage.
+Open a Solution
+Create an instant flow.
+Select the BPFY table.
+
+You need to pass secured configuration data to the class constructor while registering the plug-in.
+Table
+
+Registration Plug-in
+1. Assembly
+2. Step
+3. Image
+
+You need to create a custom connector by using an OpenAPI definition.
+API Key
+
+You need to ensure that users see the data in the app in their local time zone, including hours and minutes.
+DateAdd(<Date/Time UTC>, -TimeZoneOffset (<Date/Time UTC>), Minutes)
+
+You need to display a custom message in Azure Monitor.
+Trace function
+
+You need to diagnose and troubleshoot an issue by using Azure Monitor.
+Network
+Page navigation
+
+tools to  debug the form’s events in a model-driven app.
+Monitor
+Fiddler AutoResponder
+Browser developer tools
+
+You need to add a button to the ribbon of the app.
+ The button must only display for users who have the Create privilege for the current table JavaScript function return true. Evaluation of the privilege condition should be done on the server.
+
+a Display rule of type EntityPrivelegeRule to check the Create privilege on the PrimaryEntity
+an Enable rule of type CustomRule to call the JavaScript function
+
+ You create a security role that grants user-level create, read, and write permissions to an Accounts table.
+ Set the member’s privilege inheritance setting of the security group to Direct user (Basic) access levels and team privileges.
+Set the Create, Read, and Write privileges for the Accounts table to User.
